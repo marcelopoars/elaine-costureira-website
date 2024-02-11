@@ -19,7 +19,7 @@ import toucasDaLola from "./assets/clientes/toucas-da-lola.png";
 export default function Home() {
   return (
     <main>
-      <section className="bg-teal-50 py-20 lg:py-20 border-b border-teal-600/50">
+      <section className="bg-teal-50/50 py-20 lg:py-20">
         <div className="w-full mx-auto max-w-[1280px] flex items-center justify-between gap-12 px-6 lg:px-12">
           <div className="flex-1 max-w-[700px]">
             <h1 className="text-xl text-teal-700 font-semibold mb-3">
@@ -59,13 +59,15 @@ export default function Home() {
       </section>
 
       <section id="servicos">
+        <div className="bg-teal-50/50 w-full h-6 shadow-xl" />
+
         <div className="w-full mx-auto max-w-[1280px] py-20 lg:py-24 px-6 lg:px-12">
           <h2 className="text-4xl lg:text-5xl lg:text-center mb-12 lg:mb-16">
             Serviços
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-            <article className="bg-fuchsia-200 text-fuchsia-900 py-10 px-8 rounded-lg">
+            <article className="bg-fuchsia-100 text-fuchsia-900 py-10 px-8 rounded-lg shadow-xl">
               <Shirt className="size-16 -translate-x-1 mb-8" />
               <h3 className="text-3xl font-semibold pb-4 mb-4 border-b-2 border-fuchsia-900">
                 Confecção
@@ -75,7 +77,7 @@ export default function Home() {
                 <li>Cama, mesa e banho</li>
               </ul>
             </article>
-            <article className="bg-sky-200 text-sky-900 py-10 px-8 rounded-lg">
+            <article className="bg-sky-100 text-sky-900 py-10 px-8 rounded-lg shadow-xl">
               <PencilRuler className="size-16 -translate-x-1 mb-8" />
               <h3 className="text-3xl font-semibold pb-4 mb-4 border-b-2 border-sky-900">
                 Montagem
@@ -90,7 +92,7 @@ export default function Home() {
                 <li>Toucas</li>
               </ul>
             </article>
-            <article className="bg-rose-200 text-rose-900 py-10 px-8 rounded-lg">
+            <article className="bg-rose-100 text-rose-900 py-10 px-8 rounded-lg shadow-xl">
               <Scissors className="size-16 -translate-x-1 mb-8" />
               <h3 className="text-3xl font-semibold pb-4 mb-4 border-b-2 border-rose-900">
                 Reformas
@@ -105,10 +107,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="consertos-na-hora" className="bg-teal-50">
-        <div className="w-full h-6 shadow-xl" />
+      <section id="consertos-na-hora" className="bg-teal-50/50">
+        <div className="bg-white w-full h-6 shadow-xl" />
 
-        <div className="w-full mx-auto  flex flex-col items-start lg:items-center gap-6 lg:max-w-[900px] lg:text-center py-20 lg:py-40 px-6 lg:px-12">
+        <div className="w-full mx-auto flex flex-col items-start lg:items-center gap-6 lg:max-w-[900px] lg:text-center py-20 lg:py-40 px-6 lg:px-12">
           <Clock3 className="size-20 text-teal-600 " />
           <h2 className="text-4xl lg:text-5xl">Consertos na hora</h2>
           <p className="text-xl lg:text-2xl">
@@ -128,8 +130,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="clientes" className="py-20 lg:py-40">
-        <div className="w-full mx-auto max-w-[1280px] px-6 lg:px-12">
+      <section id="clientes" className="">
+        <div className="bg-teal-50/50 w-full h-6 shadow-xl" />
+
+        <div className="w-full mx-auto max-w-[1280px] px-6 lg:px-12 py-20 lg:py-40">
           <h2 className="text-4xl lg:text-5xl lg:text-center mb-12 lg:mb-16">
             Clientes
           </h2>
