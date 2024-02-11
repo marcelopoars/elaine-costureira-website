@@ -7,7 +7,7 @@ export const Header = () => {
         <h1>
           <span className="text-3xl lg:text-4xl font-bold">
             elaine{" "}
-            <span className="text-xl lg:text-2xl font-light text-right">
+            <span className="text-white text-xl lg:text-2xl font-light text-right">
               costureira
             </span>
           </span>

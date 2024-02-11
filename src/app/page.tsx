@@ -121,7 +121,7 @@ export default function Home() {
             href="https://api.whatsapp.com/send?phone=5551998503513&text=Olá! Gostaria de agendar um horário de atendimento."
             target="_blank"
             rel="noopener noreferrer"
-            className="flex gap-2 bg-teal-600 text-white font-semibold py-4 px-6 rounded-full uppercase tracking-wide lg:hover:bg-teal-800 transition"
+            className="flex gap-2 bg-teal-700 text-white font-semibold py-4 px-6 rounded-full uppercase tracking-wide lg:hover:bg-teal-800 transition"
           >
             <Calendar /> Agendar horário
           </a>
