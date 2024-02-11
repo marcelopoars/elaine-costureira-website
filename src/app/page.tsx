@@ -65,47 +65,41 @@ export default function Home() {
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-            <article className="bg-fuchsia-200 rounded-lg">
-              <div className="text-fuchsia-900 p-6">
-                <Shirt className="size-16 -translate-x-1 mb-8" />
-                <h3 className="text-3xl font-semibold pb-4 mb-4 border-b-2 border-fuchsia-900">
-                  Confecção
-                </h3>
-                <ul className="text-lg space-y-3">
-                  <li>Camisas</li>
-                  <li>Cama, mesa e banho</li>
-                </ul>
-              </div>
+            <article className="bg-fuchsia-200 text-fuchsia-900 py-10 px-8 rounded-lg">
+              <Shirt className="size-16 -translate-x-1 mb-8" />
+              <h3 className="text-3xl font-semibold pb-4 mb-4 border-b-2 border-fuchsia-900">
+                Confecção
+              </h3>
+              <ul className="text-lg space-y-3">
+                <li>Camisas</li>
+                <li>Cama, mesa e banho</li>
+              </ul>
             </article>
-            <article className="bg-sky-200 rounded-lg">
-              <div className="text-sky-900 p-6">
-                <PencilRuler className="size-16 -translate-x-1 mb-8" />
-                <h3 className="text-3xl font-semibold pb-4 mb-4 border-b-2 border-sky-900">
-                  Montagem
-                </h3>
-                <ul className="text-lg space-y-3">
-                  <li>Blazers Femininos</li>
-                  <li>Calças</li>
-                  <li>Calças Leggings</li>
-                  <li>Caminhas</li>
-                  <li>Jalecos</li>
-                  <li>Jaquetas</li>
-                  <li>Toucas</li>
-                </ul>
-              </div>
+            <article className="bg-sky-200 text-sky-900 py-10 px-8 rounded-lg">
+              <PencilRuler className="size-16 -translate-x-1 mb-8" />
+              <h3 className="text-3xl font-semibold pb-4 mb-4 border-b-2 border-sky-900">
+                Montagem
+              </h3>
+              <ul className="text-lg space-y-3">
+                <li>Blazers Femininos</li>
+                <li>Calças</li>
+                <li>Calças Leggings</li>
+                <li>Caminhas</li>
+                <li>Jalecos</li>
+                <li>Jaquetas</li>
+                <li>Toucas</li>
+              </ul>
             </article>
-            <article className="bg-rose-200 rounded-lg">
-              <div className="text-rose-900 p-6">
-                <Scissors className="size-16 -translate-x-1 mb-8" />
-                <h3 className="text-3xl font-semibold pb-4 mb-4 border-b-2 border-rose-900">
-                  Reformas
-                </h3>
-                <ul className="text-lg space-y-3">
-                  <li>Ajustes</li>
-                  <li>Bainha</li>
-                  <li>Troca de Ziper</li>
-                </ul>
-              </div>
+            <article className="bg-rose-200 text-rose-900 py-10 px-8 rounded-lg">
+              <Scissors className="size-16 -translate-x-1 mb-8" />
+              <h3 className="text-3xl font-semibold pb-4 mb-4 border-b-2 border-rose-900">
+                Reformas
+              </h3>
+              <ul className="text-lg space-y-3">
+                <li>Ajustes</li>
+                <li>Bainha</li>
+                <li>Troca de Ziper</li>
+              </ul>
             </article>
           </div>
         </div>
@@ -119,7 +113,8 @@ export default function Home() {
           <h2 className="text-4xl lg:text-5xl">Consertos na hora</h2>
           <p className="text-xl lg:text-2xl">
             Um atendimento personalizado para lhe oferecer mais agilidade e uma
-            melhor experiência. <strong>Ajustes e reparos feitos na hora sob agendamento</strong>. 
+            melhor experiência.{" "}
+            <strong>Ajustes e reparos feitos na hora sob agendamento</strong>.
           </p>
           <p className="text-xl lg:text-2xl">Agende agora o seu serviço:</p>
           <a
