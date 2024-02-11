@@ -72,7 +72,7 @@ export const Footer = () => {
       </div>
 
       <a
-        href="http://"
+        href="https://api.whatsapp.com/send?phone=5551998503513&text=Olá%20Elaine!%20Encontrei%20seu%20site%2C%20e%20gostaria%20de%20mais%20informações%20sobre%20seus%20serviços."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 xl:bottom-12 xl:right-12 flex items-center gap-2 text-lg font-semibold bg-[#25D366] hover:bg-[#075E54] p-3 lg:px-5 rounded-full transition drop-shadow-xl"
