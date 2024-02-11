@@ -1,4 +1,5 @@
 import { MailIcon, Phone } from "lucide-react";
+import { InstagramIcon, WhatsAppIcon } from "..";
 
 export const Footer = () => {
   return (
@@ -17,12 +18,25 @@ export const Footer = () => {
           <div id="contato">
             <h4 className="font-bold text-xl mb-4">Contato</h4>
             <ul className="space-y-3">
-              <li className="flex gap-2">
+              <li className="flex items-center gap-2">
                 <Phone />
-                <a href="tel:5198503513">{"(51) 9850-3513"}</a>
+                <a href="tel:51998503513">{"(51) 99850-3513"}</a>
               </li>
-              <li className="flex gap-2">
-                <MailIcon /> elainegouveasilva@gmail.com
+              <li className="flex items-center gap-2">
+                <MailIcon />
+                <a href="mailto:elainegouveasilva@gmail.com">
+                  elainegouveasilva@gmail.com
+                </a>
+              </li>
+              <li className="flex items-center gap-2">
+                <InstagramIcon className="fill-teal-50 w-[27px]" />
+                <a
+                  href="https://www.instagram.com/elainecoestureira"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  @elainecostureira
+                </a>
               </li>
             </ul>
           </div>
@@ -56,6 +70,16 @@ export const Footer = () => {
           </a>
         </p>
       </div>
+
+      <a
+        href="http://"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 xl:bottom-12 xl:right-12 flex items-center gap-2 text-lg font-semibold bg-[#25D366] hover:bg-[#075E54] p-2 lg:px-5 rounded-full transition drop-shadow-xl"
+      >
+        <WhatsAppIcon className="fill-slate-50 size-12" />
+        <span className="hidden lg:block">WhatsApp</span>
+      </a>
     </footer>
   );
 };
