@@ -40,8 +40,8 @@ export default function Home() {
                     <Star className="text-yellow-400 fill-yellow-400" />
                   </li>
                 ))}
-              <li className="ml-2 whitespace-nowrap">
-                5.0 na avaliações Google
+              <li className="lg:ml-2 whitespace-nowrap">
+                Nota máxima nas avaliações Google.
               </li>
             </ul>
           </div>
@@ -114,18 +114,19 @@ export default function Home() {
       <section id="consertos-na-hora" className="bg-teal-50">
         <div className="w-full h-6 shadow-xl" />
 
-        <div className="w-full mx-auto  flex flex-col items-start lg:items-center gap-6 lg:max-w-[690px] lg:text-center py-20 lg:py-40 px-6 lg:px-12">
+        <div className="w-full mx-auto  flex flex-col items-start lg:items-center gap-6 lg:max-w-[900px] lg:text-center py-20 lg:py-40 px-6 lg:px-12">
           <Clock3 className="size-20 text-teal-600 " />
           <h2 className="text-4xl lg:text-5xl">Consertos na hora</h2>
           <p className="text-xl lg:text-2xl">
-            Ajustes e reparos feitos na hora sob agendamento. Muito mais
-            conforto e agilidade para você. Agende agora o seu serviço.
+            Um atendimento personalizado para lhe oferecer mais agilidade e uma
+            melhor experiência. <strong>Ajustes e reparos feitos na hora sob agendamento</strong>. 
           </p>
+          <p className="text-xl lg:text-2xl">Agende agora o seu serviço:</p>
           <a
             href="https://api.whatsapp.com/send?phone=5551998503513&text=Olá! Gostaria de agendar um horário de atendimento."
             target="_blank"
             rel="noopener noreferrer"
-            className="flex gap-2 bg-teal-600 text-white font-semibold py-4 px-6 rounded-full uppercase tracking-wide"
+            className="flex gap-2 bg-teal-600 text-white font-semibold py-4 px-6 rounded-full uppercase tracking-wide lg:hover:bg-teal-800 transition"
           >
             <Calendar /> Agendar horário
           </a>

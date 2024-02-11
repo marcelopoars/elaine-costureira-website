@@ -75,7 +75,7 @@ export const Footer = () => {
         href="http://"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 xl:bottom-12 xl:right-12 flex items-center gap-2 text-lg font-semibold bg-[#25D366] hover:bg-[#075E54] p-2 lg:px-5 rounded-full transition drop-shadow-xl"
+        className="fixed bottom-6 right-6 xl:bottom-12 xl:right-12 flex items-center gap-2 text-lg font-semibold bg-[#25D366] hover:bg-[#075E54] p-3 lg:px-5 rounded-full transition drop-shadow-xl"
       >
         <WhatsAppIcon className="fill-slate-50 size-12" />
         <span className="hidden lg:block">WhatsApp</span>
