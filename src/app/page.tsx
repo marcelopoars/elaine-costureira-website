@@ -22,14 +22,14 @@ export default function Home() {
       <section className="bg-teal-50 py-20 lg:py-20 border-b border-teal-600/50">
         <div className="w-full mx-auto max-w-[1280px] flex items-center justify-between gap-12 px-6 lg:px-12">
           <div className="flex-1 max-w-[700px]">
-            <h1 className="text-xl text-teal-600 font-semibold mb-3">
+            <h1 className="text-xl text-teal-700 font-semibold mb-3">
               Elaine Gouvea
             </h1>
             <p className="text-3xl leading-snug lg:text-4xl lg:leading-snug xl:text-5xl xl:leading-snug mb-6">
               Costureira com mais de 30 anos de experiência em{" "}
-              <strong className="text-teal-600">confecção</strong>,{" "}
-              <strong className="text-teal-600">montagem</strong> e{" "}
-              <strong className="text-teal-600">reformas em geral</strong>.
+              <strong className="text-teal-700">confecção</strong>,{" "}
+              <strong className="text-teal-700">montagem</strong> e{" "}
+              <strong className="text-teal-700">reformas em geral</strong>.
             </p>
 
             <ul className="flex flex-wrap gap-2">
