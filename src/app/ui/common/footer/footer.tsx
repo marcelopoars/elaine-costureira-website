@@ -16,7 +16,7 @@ export const Footer = () => {
         </div>
         <div className="md:flex lg:justify-end gap-40 space-y-10 md:space-y-0">
           <div id="contato">
-            <h4 className="font-bold text-xl mb-4">Contato</h4>
+            <h2 className="font-bold text-xl mb-4">Contato</h2>
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <Phone />
@@ -42,7 +42,7 @@ export const Footer = () => {
           </div>
 
           <address className="not-italic">
-            <h4 className="font-bold text-xl mb-4">Endereço</h4>
+            <h3 className="font-bold text-xl mb-4">Endereço</h3>
             <ul className="space-y-2">
               <li>Rua Sevilha, 226 - Guajuviras</li>
               <li>Canoas-RS</li>
