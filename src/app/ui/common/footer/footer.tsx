@@ -3,7 +3,7 @@ import { InstagramIcon, WhatsAppIcon } from "..";
 
 export const Footer = () => {
   return (
-    <footer className="bg-teal-600 text-teal-50">
+    <footer className="bg-teal-700 text-white">
       <div className="w-full h-6 shadow-xl" />
       <div className="w-full mx-auto max-w-[1280px] space-y-10 py-20 px-6 lg:px-12">
         <div className="flex border-b border-b-teal-400 pb-2">
@@ -29,7 +29,7 @@ export const Footer = () => {
                 </a>
               </li>
               <li className="flex items-center gap-2">
-                <InstagramIcon className="fill-teal-50 w-[27px]" />
+                <InstagramIcon className="fill-white w-[27px]" />
                 <a
                   href="https://www.instagram.com/elainecoestureira"
                   target="_blank"
