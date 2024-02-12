@@ -11,14 +11,15 @@ export const NavbarMobile = () => {
         <Menu />
       </Dialog.Trigger>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 data-[state=open]:backdrop-blur-sm bg-white/10 transition" />
+        <Dialog.Overlay className="fixed inset-0 data-[state=open]:backdrop-blur-sm bg-white/10" />
         <Dialog.Content
           className={`
-          fixed top-0 right-0 bottom-0 
-          w-3/4 
+          fixed top-0 right-0 
+          w-3/4 min-h-full
           bg-teal-800 text-white 
           p-8 pt-16 
-          menu-mobile 
+          opacity-0 
+          data-[state=open]:opacity-100 transition
           `}
         >
           <Dialog.Close className="absolute top-6 right-6">

@@ -19,12 +19,12 @@ import toucasDaLola from "./assets/clientes/toucas-da-lola.png";
 export default function Home() {
   return (
     <main>
-      <section className="bg-teal-50/50 py-20 lg:py-20">
+      <section className="bg-teal-50/50 pt-16 pb-12 lg:py-20">
         <div className="w-full mx-auto max-w-[1280px] flex items-center justify-between gap-12 px-6 lg:px-12">
           <div className="flex-1 max-w-[700px]">
-            <h1 className="text-xl text-teal-700 font-semibold mb-3">
+            {/* <h1 className="text-xl text-teal-700 font-semibold mb-3">
               Elaine Gouvea
-            </h1>
+            </h1> */}
             <p className="text-3xl leading-snug lg:text-4xl lg:leading-snug xl:text-5xl xl:leading-snug mb-6">
               Costureira com mais de 30 anos de experiência em{" "}
               <strong className="text-teal-700">confecção</strong>,{" "}
@@ -58,7 +58,7 @@ export default function Home() {
       <section id="servicos">
         <div className="bg-teal-50/50 w-full h-6 shadow-xl" />
 
-        <div className="w-full mx-auto max-w-[1280px] py-20 lg:py-24 px-6 lg:px-12">
+        <div className="w-full mx-auto max-w-[1280px] py-16 lg:py-24 px-6 lg:px-12">
           <h2 className="text-4xl lg:text-5xl lg:text-center mb-12 lg:mb-16">
             Serviços
           </h2>
