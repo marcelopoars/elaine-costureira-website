@@ -31,8 +31,7 @@ export default function Home() {
               <strong className="text-teal-700">montagem</strong> e{" "}
               <strong className="text-teal-700">reformas em geral</strong>.
             </p>
-
-            <ul className="flex flex-wrap gap-2">
+            <ul className="flex flex-wrap gap-2 mb-2">
               {Array(5)
                 .fill(0)
                 .map((_, index) => (
@@ -40,10 +39,8 @@ export default function Home() {
                     <Star className="text-yellow-400 fill-yellow-400" />
                   </li>
                 ))}
-              <li className="lg:ml-2 whitespace-nowrap">
-                Nota máxima nas avaliações Google.
-              </li>
             </ul>
+            <span>Nota máxima nas avaliações Google.</span>
           </div>
 
           <div className="hidden lg:block rounded-s-full border-8 border-teal-600">
@@ -112,7 +109,9 @@ export default function Home() {
 
         <div className="w-full mx-auto flex flex-col items-start lg:items-center gap-6 lg:max-w-[900px] lg:text-center py-20 lg:py-40 px-6 lg:px-12">
           <Clock3 className="size-20 text-teal-600 " />
-          <h2 className="text-4xl lg:text-5xl">Consertos na hora</h2>
+          <h2 className="w-[250px] md:w-full text-4xl lg:text-5xl">
+            Consertos na hora
+          </h2>
           <p className="text-xl lg:text-2xl">
             Um atendimento personalizado para lhe oferecer mais agilidade e uma
             melhor experiência.{" "}
