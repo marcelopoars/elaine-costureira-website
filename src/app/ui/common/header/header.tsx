@@ -34,7 +34,7 @@ export const Header = () => {
           </Dialog.Trigger>
           <Dialog.Portal>
             <Dialog.Overlay />
-            <Dialog.Content className="fixed top-0 right-0 bottom-0 w-3/4 bg-teal-800 text-white p-8 pt-10">
+            <Dialog.Content className="fixed top-0 right-0 bottom-0 w-3/4 bg-teal-800 text-white p-8 pt-16">
               <Dialog.Close className="absolute top-6 right-6">
                 <X />
               </Dialog.Close>
