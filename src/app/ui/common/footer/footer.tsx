@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className="w-full mx-auto max-w-[1280px] space-y-10 py-20 px-6 lg:px-12">
         <div className="flex border-b border-b-teal-800 pb-2">
           <span className="text-3xl lg:text-4xl font-bold">
-            elaine{" "}
+            elaine
             <span className="text-xl lg:text-2xl font-light text-right">
               costureira
             </span>

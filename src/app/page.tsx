@@ -68,7 +68,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
             <article className="bg-fuchsia-100 text-fuchsia-900 py-10 px-8 rounded-lg shadow-xl">
-              <Shirt className="size-16 -translate-x-1 mb-8" />
+              <PencilRuler className="size-16 -translate-x-1 mb-8" />
               <h3 className="text-3xl font-semibold pb-4 mb-4 border-b-2 border-fuchsia-900">
                 Confecção
               </h3>
@@ -78,7 +78,7 @@ export default function Home() {
               </ul>
             </article>
             <article className="bg-sky-100 text-sky-900 py-10 px-8 rounded-lg shadow-xl">
-              <PencilRuler className="size-16 -translate-x-1 mb-8" />
+              <Shirt className="size-16 -translate-x-1 mb-8" />
               <h3 className="text-3xl font-semibold pb-4 mb-4 border-b-2 border-sky-900">
                 Montagem
               </h3>
