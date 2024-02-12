@@ -1,5 +1,5 @@
 import { MailIcon, Phone } from "lucide-react";
-import { InstagramIcon, WhatsAppIcon } from "..";
+import { InstagramIcon, Logo, WhatsAppIcon } from "..";
 
 export const Footer = () => {
   return (
@@ -7,12 +7,7 @@ export const Footer = () => {
       <div className="w-full h-6 shadow-xl" />
       <div className="w-full mx-auto max-w-[1280px] space-y-10 py-20 px-6 lg:px-12">
         <div className="flex border-b border-b-teal-800 pb-2">
-          <span className="text-3xl lg:text-4xl font-bold">
-            elaine
-            <span className="text-xl lg:text-2xl font-light text-right">
-              costureira
-            </span>
-          </span>
+          <Logo />
         </div>
         <div className="md:flex lg:justify-end gap-40 space-y-10 md:space-y-0">
           <div id="contato">
@@ -75,7 +70,7 @@ export const Footer = () => {
         href="https://api.whatsapp.com/send?phone=5551998503513&text=Olá%20Elaine!%20Encontrei%20seu%20site%2C%20e%20gostaria%20de%20mais%20informações%20sobre%20seus%20serviços."
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 xl:bottom-12 xl:right-12 flex items-center gap-2 text-lg font-semibold bg-[#25D366] hover:bg-[#075E54] p-3 lg:px-5 rounded-full transition drop-shadow-xl"
+        className="fixed bottom-6 right-6 xl:bottom-12 xl:right-12 flex items-center gap-2 text-lg font-semibold bg-[#25D366] hover:bg-[#075E54] p-2 lg:p-3 lg:px-5 rounded-full transition drop-shadow-xl"
         aria-label="Clique para enviar uma mensagem via WhatsApp"
       >
         <WhatsAppIcon className="fill-slate-50 size-12" />
