@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu-mobile[data-state="open"] {
+  animation: toLeft 300ms cubic-bezier(0.87, 0, 0.13, 1);
+}
+.menu-mobile[data-state="closed"] {
+  animation: toRight 300ms cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+@keyframes toLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes toRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
