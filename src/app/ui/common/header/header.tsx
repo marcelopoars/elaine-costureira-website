@@ -39,11 +39,11 @@ export const Header = () => {
                 <X />
               </Dialog.Close>
               <nav>
-                <ul className="tracking-wide space-y-4 divide-y-2 divide-black/20">
+                <ul className="tracking-wide divide-y-2 divide-black/20">
                   {menuItems.map(({ name, href }) => (
                     <li key={href}>
-                      <Dialog.Close>
-                        <a href={href} className="block py-3">
+                      <Dialog.Close className="w-full text-left">
+                        <a href={href} className="block py-6">
                           {name}
                         </a>
                       </Dialog.Close>
