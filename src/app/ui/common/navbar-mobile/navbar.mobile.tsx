@@ -8,7 +8,7 @@ export const NavbarMobile = () => {
   return (
     <Dialog.Root>
       <Dialog.Trigger className="lg:hidden">
-        <Menu />
+        <Menu aria-label="Clique para abrir o menu" />
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay className="fixed inset-0 data-[state=open]:backdrop-blur-sm bg-white/10" />
