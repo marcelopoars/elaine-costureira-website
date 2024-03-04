@@ -11,9 +11,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Elaine Costureira | Confecções, montagem e reformas em geral",
+  title: "Elaine Costureira | Confecção, montagem e reformas em geral",
   description:
-    "Costureira com mais de 30 anos de experiência em confecções, montagem e reformas em geral.",
+    "Costureira com mais de 30 anos de experiência em confecção, montagem e reformas em geral.",
 };
 
 export default function RootLayout({
