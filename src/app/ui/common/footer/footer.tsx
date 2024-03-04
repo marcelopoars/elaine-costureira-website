@@ -15,11 +15,19 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <Phone />
-                <a href="tel:51998503513">{"(51) 99850-3513"}</a>
+                <a
+                  href="tel:51998503513"
+                  className="border-b-2 border-b-transparent hover:border-b-2 hover:border-b-white focus-visible:ring-2 focus-visible:ring-white outline-none transition py-1"
+                >
+                  {"(51) 99850-3513"}
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <MailIcon />
-                <a href="mailto:elainegouveasilva@gmail.com">
+                <a
+                  href="mailto:elainegouveasilva@gmail.com"
+                  className="border-b-2 border-b-transparent hover:border-b-2 hover:border-b-white focus-visible:ring-2 focus-visible:ring-white outline-none transition py-1"
+                >
                   elainegouveasilva@gmail.com
                 </a>
               </li>
@@ -29,6 +37,7 @@ export const Footer = () => {
                   href="https://www.instagram.com/elainecoestureira"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="border-b-2 border-b-transparent hover:border-b-2 hover:border-b-white focus-visible:ring-2 focus-visible:ring-white outline-none transition py-1"
                 >
                   @elainecostureira
                 </a>
@@ -59,7 +68,7 @@ export const Footer = () => {
             href="https://www.marcelopereira.dev"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-bold hover:underline underline-offset-4"
+            className="font-bold border-b-2 border-b-transparent hover:border-b-2 hover:border-b-teal-200 focus-visible:ring-2 focus-visible:ring-white outline-none transition"
           >
             MP Software
           </a>
@@ -70,7 +79,7 @@ export const Footer = () => {
         href="https://api.whatsapp.com/send?phone=5551998503513&text=Olá%20Elaine!%20Encontrei%20seu%20site%2C%20e%20gostaria%20de%20mais%20informações%20sobre%20seus%20serviços."
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 xl:bottom-12 xl:right-12 flex items-center gap-2 text-lg font-semibold bg-[#25D366] hover:bg-[#075E54] p-2 lg:p-3 lg:px-5 rounded-full transition drop-shadow-xl"
+        className="fixed bottom-6 right-6 xl:bottom-12 xl:right-12 flex items-center gap-2 text-lg font-semibold bg-[#25D366] hover:bg-[#075E54] focus-visible:ring-2 focus-visible:ring-white outline-none p-2 lg:p-3 lg:px-5 rounded-full transition drop-shadow-xl"
         aria-label="Clique para enviar uma mensagem via WhatsApp"
       >
         <WhatsAppIcon className="fill-slate-50 size-12" />

@@ -3,7 +3,6 @@ import Image from "next/image";
 import {
   Calendar,
   Clock3,
-  Clock3Icon,
   PencilRuler,
   Scissors,
   Shirt,
@@ -19,12 +18,9 @@ import toucasDaLola from "./assets/clientes/toucas-da-lola.png";
 export default function Home() {
   return (
     <main>
-      <section className="bg-teal-50/50 pt-16 pb-12 lg:py-20">
+      <section className="bg-teal-50/25 pt-16 pb-12 lg:py-20">
         <div className="w-full mx-auto max-w-[1280px] flex items-center justify-between gap-12 px-6 lg:px-12">
           <div className="flex-1 max-w-[700px]">
-            {/* <h1 className="text-xl text-teal-700 font-semibold mb-3">
-              Elaine Gouvea
-            </h1> */}
             <p className="text-3xl leading-snug lg:text-4xl lg:leading-snug xl:text-5xl xl:leading-snug mb-6">
               Costureira com mais de 30 anos de experiência em{" "}
               <strong className="text-teal-700">confecção</strong>,{" "}
@@ -36,11 +32,13 @@ export default function Home() {
                 .fill(0)
                 .map((_, index) => (
                   <li key={index}>
-                    <Star className="text-yellow-400 fill-yellow-400" />
+                    <Star className="text-yellow-400 fill-yellow-400 size-5" />
                   </li>
                 ))}
             </ul>
-            <span>Nota máxima nas avaliações Google.</span>
+            <span className="block text-sm">
+              Nota máxima nas avaliações Google.
+            </span>
           </div>
 
           <div className="hidden lg:block rounded-s-full border-8 border-teal-600">
@@ -56,15 +54,20 @@ export default function Home() {
       </section>
 
       <section id="servicos">
-        <div className="bg-teal-50/50 w-full h-6 shadow-xl" />
+        <div className="bg-teal-50/25 w-full h-6 shadow-md" />
 
         <div className="w-full mx-auto max-w-[1280px] py-16 lg:py-24 px-6 lg:px-12">
-          <h2 className="text-4xl lg:text-5xl lg:text-center mb-12 lg:mb-16">
+          <h2 className="text-4xl lg:text-5xl lg:text-center mb-8 lg:mb-8">
             Serviços
           </h2>
 
+          <p className="max-w-[500px] mx-auto mb-12 lg:mb-16 lg:text-2xl lg:text-center">
+            Este são alguns dos serviços realizados. Solicite orçamento pelo
+            WhatsApp.
+          </p>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-            <article className="bg-fuchsia-100 text-fuchsia-900 py-10 px-8 rounded-lg shadow-xl">
+            <article className="bg-fuchsia-50 text-fuchsia-900 py-10 px-8 border border-fuchsia-300 rounded-lg">
               <PencilRuler className="size-16 -translate-x-1 mb-8" />
               <h3 className="text-3xl font-semibold pb-4 mb-4 border-b-2 border-fuchsia-900">
                 Confecção
@@ -74,7 +77,7 @@ export default function Home() {
                 <li>Cama, mesa e banho</li>
               </ul>
             </article>
-            <article className="bg-sky-100 text-sky-900 py-10 px-8 rounded-lg shadow-xl">
+            <article className="bg-sky-50 text-sky-900 py-10 px-8 border border-sky-300 rounded-lg">
               <Shirt className="size-16 -translate-x-1 mb-8" />
               <h3 className="text-3xl font-semibold pb-4 mb-4 border-b-2 border-sky-900">
                 Montagem
@@ -89,7 +92,7 @@ export default function Home() {
                 <li>Toucas</li>
               </ul>
             </article>
-            <article className="bg-rose-100 text-rose-900 py-10 px-8 rounded-lg shadow-xl">
+            <article className="bg-rose-50 text-rose-900 py-10 px-8 border border-rose-300 rounded-lg">
               <Scissors className="size-16 -translate-x-1 mb-8" />
               <h3 className="text-3xl font-semibold pb-4 mb-4 border-b-2 border-rose-900">
                 Reformas
@@ -104,8 +107,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="consertos-na-hora" className="bg-teal-50/50">
-        <div className="bg-white w-full h-6 shadow-xl" />
+      <section id="consertos-na-hora" className="bg-teal-50/25">
+        <div className="bg-white w-full h-6 shadow-md" />
 
         <div className="w-full mx-auto flex flex-col items-start lg:items-center gap-6 lg:max-w-[900px] lg:text-center py-20 lg:py-40 px-6 lg:px-12">
           <Clock3 className="size-20 text-teal-600 " />
@@ -130,7 +133,7 @@ export default function Home() {
       </section>
 
       <section id="clientes" className="">
-        <div className="bg-teal-50/50 w-full h-6 shadow-xl" />
+        <div className="bg-teal-50/50 w-full h-6 shadow-md" />
 
         <div className="w-full mx-auto max-w-[1280px] px-6 lg:px-12 py-20 lg:py-40">
           <h2 className="text-4xl lg:text-5xl lg:text-center mb-12 lg:mb-16">
