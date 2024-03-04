@@ -62,7 +62,7 @@ export default function Home() {
           </h2>
 
           <p className="max-w-[500px] mx-auto mb-12 lg:mb-16 lg:text-2xl lg:text-center">
-            Este são alguns dos serviços realizados. Solicite orçamento pelo
+            Estes são alguns dos serviços realizados. Solicite orçamento pelo
             WhatsApp.
           </p>
 
