@@ -22,8 +22,9 @@ export default function Home() {
         <div className="w-full mx-auto max-w-[1280px] flex items-center justify-between gap-12 px-6 lg:px-12">
           <div className="flex-1 max-w-[700px]">
             <p className="text-3xl leading-snug lg:text-4xl lg:leading-snug xl:text-5xl xl:leading-snug mb-6">
-              Costureira com mais de 30 anos de experiência em{" "}
-              <strong className="text-teal-700">confecção</strong>,{" "}
+              Costureira com mais de{" "}
+              <span className="whitespace-nowrap">30 anos</span> de experiência
+              em <strong className="text-teal-700">confecção</strong>,{" "}
               <strong className="text-teal-700">montagem</strong> e{" "}
               <strong className="text-teal-700">reformas em geral</strong>.
             </p>
@@ -113,12 +114,13 @@ export default function Home() {
         <div className="w-full mx-auto flex flex-col items-start lg:items-center gap-6 lg:max-w-[900px] lg:text-center py-20 lg:py-40 px-6 lg:px-12">
           <Clock3 className="size-20 text-teal-600 " />
           <h2 className="w-[250px] md:w-full text-4xl lg:text-5xl">
-            Consertos na hora
+            Consertos realizados{" "}
+            <span className="whitespace-nowrap">na hora</span>
           </h2>
           <p className="text-xl lg:text-2xl">
+            Ajustes e reparos <strong>feitos na hora sob agendamento</strong>.
             Um atendimento personalizado para lhe oferecer mais agilidade e uma
-            melhor experiência.{" "}
-            <strong>Ajustes e reparos feitos na hora sob agendamento</strong>.
+            melhor experiência.
           </p>
           <p className="text-xl lg:text-2xl">Agende agora o seu serviço:</p>
           <a
