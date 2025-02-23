@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <main>
       <section className="bg-teal-50/25 pt-16 pb-12 lg:py-20">
-        <div className="w-full mx-auto max-w-[1280px] flex items-center justify-between gap-12 px-6 lg:px-12">
+        <div className="w-full mx-auto max-w-[1440px] flex items-center justify-between gap-12 px-6 lg:px-12">
           <div className="flex-1 max-w-[700px]">
             <p className="text-3xl leading-snug lg:text-4xl lg:leading-snug xl:text-5xl xl:leading-snug mb-6">
               Costureira com mais de{" "}
@@ -57,7 +57,7 @@ export default function Home() {
       <section id="servicos">
         <div className="bg-teal-50/25 w-full h-6 shadow-md" />
 
-        <div className="w-full mx-auto max-w-[1280px] py-16 lg:py-24 px-6 lg:px-12">
+        <div className="w-full mx-auto max-w-[1440px] py-16 lg:py-24 px-6 lg:px-12">
           <h2 className="text-4xl lg:text-5xl lg:text-center mb-8 lg:mb-8">
             Serviços
           </h2>
@@ -137,7 +137,7 @@ export default function Home() {
       <section id="clientes" className="">
         <div className="bg-teal-50/50 w-full h-6 shadow-md" />
 
-        <div className="w-full mx-auto max-w-[1280px] px-6 lg:px-12 py-20 lg:py-40">
+        <div className="w-full mx-auto max-w-[1440px] px-6 lg:px-12 py-20 lg:py-40">
           <h2 className="text-4xl lg:text-5xl lg:text-center mb-12 lg:mb-16">
             Clientes
           </h2>

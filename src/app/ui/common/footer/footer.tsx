@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <footer className="bg-teal-700 text-white">
       <div className="w-full h-6 shadow-xl" />
-      <div className="w-full mx-auto max-w-[1280px] space-y-10 py-20 px-6 lg:px-12">
+      <div className="w-full mx-auto max-w-[1440px] space-y-10 py-20 px-6 lg:px-12">
         <div className="flex border-b border-b-teal-800 pb-2">
           <Logo />
         </div>
@@ -65,7 +65,7 @@ export const Footer = () => {
         <p>
           <span className="hidden lg:inline-block">Desenvolvido por</span>{" "}
           <a
-            href="https://www.marcelopereira.dev"
+            href="https://www.marcelopereira.com.br"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold border-b-2 border-b-transparent hover:border-b-2 hover:border-b-teal-200 focus-visible:ring-2 focus-visible:ring-white outline-none transition"
