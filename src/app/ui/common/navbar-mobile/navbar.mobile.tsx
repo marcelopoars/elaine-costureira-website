@@ -14,17 +14,18 @@ export const NavbarMobile = () => {
         <Dialog.Overlay className="fixed inset-0 data-[state=open]:backdrop-blur-sm bg-white/10" />
         <Dialog.Content
           className={`
-          fixed top-0 right-0 
-          w-3/4 min-h-full
-          bg-teal-800 text-white 
-          p-8 pt-16 
-          opacity-0 
-          data-[state=open]:opacity-100 transition
-          `}
+            fixed top-0 right-0 
+            w-3/4 min-h-full
+            bg-teal-800 text-white 
+            p-8 pt-16 
+            opacity-0 
+            data-[state=open]:opacity-100 transition
+            `}
         >
           <Dialog.Close className="absolute top-6 right-6">
             <X />
           </Dialog.Close>
+          <Dialog.Title className="text-2xl mb-4">Menu</Dialog.Title>
           <nav>
             <ul className="tracking-wide divide-y-2 divide-black/20">
               {menuItems.map(({ name, href }) => (

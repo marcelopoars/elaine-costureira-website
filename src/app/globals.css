@@ -1,16 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-.menu-mobile {
-  opacity: 1;
-}
 
-.menu-mobile[data-state="open"] {
-  animation: toLeft 300ms cubic-bezier(0.87, 0, 0.13, 1);
-}
-.menu-mobile[data-state="closed"] {
-  animation: toRight 300ms cubic-bezier(0.87, 0, 0.13, 1);
+@layer base {
+  .menu-mobile {
+    opacity: 1;
+  }
+
+  .menu-mobile[data-state="open"] {
+    animation: toLeft 300ms cubic-bezier(0.87, 0, 0.13, 1);
+  }
+  .menu-mobile[data-state="closed"] {
+    animation: toRight 300ms cubic-bezier(0.87, 0, 0.13, 1);
+  }
 }
 
 @keyframes toLeft {
